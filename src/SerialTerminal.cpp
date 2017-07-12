@@ -1,16 +1,16 @@
 /*! \file SerialTerminal.cpp
 **	\author SMFSW
-**	\version 0.1
-**	\date 2017/03/25
+**	\version 0.2
+**	\date 2017/07/12
 **	\copyright BSD 3-Clause License (c) 2015-2017, SMFSW
 **	\brief Arduino Hardware Serial Terminal
 **	\details Arduino Hardware Serial Terminal (class instance and serialEvent function)
 **/
 
 #if ARDUINO > 22
-#include <Arduino.h> 
+#include <Arduino.h>
 #else
-#include <WProgram.h> 
+#include <WProgram.h>
 #endif
 
 #include <HardwareSerial.h>
