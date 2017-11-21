@@ -1,7 +1,7 @@
 /*! \file SerialTermClass.cpp
 **	\author SMFSW
-**	\version 0.2
-**	\date 2017/07/12
+**	\version 1.2
+**	\date 2017/11/21
 **	\copyright BSD 3-Clause License (c) 2015-2017, SMFSW
 **	\brief Arduino Hardware Serial Terminal
 **	\details Arduino Hardware Serial Terminal (low level),
@@ -18,7 +18,7 @@
 #include "SerialTermClass.h"
 
 
-void SerialTerminal::init(uint32_t speed, void (*processing)(String), String * title, String * ver, int msg_size)
+void SerialTerminal::init(const uint32_t speed, void (*processing)(String), const String * title, const String * ver, const int msg_size)
 {
 	Serial.begin(speed);
 	
@@ -34,7 +34,7 @@ void SerialTerminal::init(uint32_t speed, void (*processing)(String), String * t
 	userPrompt();
 }
 
-void SerialTerminal::handler()
+void SerialTerminal::handler(void)
 {
 	if ((SCIInNbChar > maxSize-1) || (SCIIn.charAt(SCIInNbChar-1) == breakoutChar))	{ SCIbreakout = true; }
 	
