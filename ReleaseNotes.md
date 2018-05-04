@@ -1,5 +1,5 @@
 Arduino Hardware Serial Terminal
-2017 SMFSW
+2017-2018 SMFSW
 
 Feel free to share your thoughts @ xgarmanboziax@gmail.com about:
 	- issues encountered
@@ -9,6 +9,9 @@ Feel free to share your thoughts @ xgarmanboziax@gmail.com about:
 ------------
 
 ** Actual:
+v1.3	3 May 2018:
+- Adding support for unit tests and doxygen documentation generation with Travis CI
+- Updated README.md
 
 v1.2	21 Nov 2017:
 - Added const qualifier for function parameters

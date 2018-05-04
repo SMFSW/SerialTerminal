@@ -1,6 +1,5 @@
 /*! \file SerialTerminal.cpp
 **	\author SMFSW
-**	\version 1.2
 **	\date 2017/11/21
 **	\copyright BSD 3-Clause License (c) 2015-2017, SMFSW
 **	\brief Arduino Hardware Serial Terminal
