@@ -1,4 +1,4 @@
-# SerialTerminal [![Build Status](https://travis-ci.org/SMFSW/SerialTerminal.svg?branch=master)](https://travis-ci.org/SMFSW/SerialTerminal)
+# SerialTerminal [![Build Status](https://travis-ci.com/SMFSW/SerialTerminal.svg?branch=master)](https://travis-ci.com/SMFSW/SerialTerminal)
 
 Arduino Hardware Serial Terminal
 
